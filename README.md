@@ -14,26 +14,26 @@ Demo
 
 Architecture Overview
 This project consists of:
-1️⃣ Chrome Extension – Frontend interface for user interactions
-2️⃣ Backend API – Processes webpage content and handles LLM interactions using Langchain
-3️⃣ Document Loading – Extracts and processes webpage content in real-time
+1. Chrome Extension – Frontend interface for user interactions
+2. Backend API – Processes webpage content and handles LLM interactions using Langchain
+3. Document Loading – Extracts and processes webpage content in real-time
 
 Project Structure
 my-extension/
-├── manifest.json      # Defines extension structure & permissions
-├── popup.html         # UI for user interactions
-├── popup.js           # Handles frontend logic
-├── background.js      # Manages extension lifecycle & API communication
-├── content.js         # Extracts content from webpages
-└── styles.css         # UI styling
+--  manifest.json      # Defines extension structure & permissions
+--  popup.html         # UI for user interactions
+--  popup.js           # Handles frontend logic
+--  background.js      # Manages extension lifecycle & API communication
+--  content.js         # Extracts content from webpages
+--  styles.css         # UI styling
 
 How It Works
-1️⃣ User browses a webpage
-2️⃣ Extension extracts the page content
-3️⃣ User asks a question in the popup
-4️⃣ Content is sent to the backend
-5️⃣ Langchain processes the content & AI generates a response
-6️⃣ Response is displayed in the extension
+1. User browses a webpage
+2. Extension extracts the page content
+3. User asks a question in the popup
+4. Content is sent to the backend
+5. Langchain processes the content & AI generates a response
+6. Response is displayed in the extension
 
 Installation
 1. Clone the repository:
