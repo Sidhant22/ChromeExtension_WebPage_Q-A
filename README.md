@@ -2,10 +2,10 @@ Webpage Q&A Chrome Extension
 🚀 A Chrome extension that extracts webpage content and lets users ask AI-powered questions based on the page context. Built using Langchain and OpenAI.
 
 Features
-✅ Extracts webpage content in real-time
-✅ Allows users to ask questions about the page
-✅ Uses Langchain for document processing
-✅ Simple and lightweight Chrome extension
+-  Extracts webpage content in real-time
+-  Allows users to ask questions about the page
+-  Uses Langchain for document processing
+-  Simple and lightweight Chrome extension
 
 Demo
 📸 ![image](https://github.com/user-attachments/assets/7f8388ad-03af-455f-8535-fe2e0c3a2b52)
@@ -19,13 +19,13 @@ This project consists of:
 3. Document Loading – Extracts and processes webpage content in real-time
 
 Project Structure
-my-extension/
---  manifest.json      # Defines extension structure & permissions
---  popup.html         # UI for user interactions
---  popup.js           # Handles frontend logic
---  background.js      # Manages extension lifecycle & API communication
---  content.js         # Extracts content from webpages
---  styles.css         # UI styling
+
+1. manifest.json:    Defines extension structure & permissions
+2. popup.html :      UI for user interactions
+3. popup.js  :       Handles frontend logic
+4. background.js :   Manages extension lifecycle & API communication
+5.  content.js :     Extracts content from webpages
+6.  styles.css :     UI styling
 
 How It Works
 1. User browses a webpage
